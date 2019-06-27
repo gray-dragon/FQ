@@ -1,0 +1,30 @@
+.my_header{
+    height:125px;
+}
+.my_header div:first-child{
+    height:62px;
+    background:#095517;
+}
+.header-two{
+    height:62px;
+    background:#fff;
+}
+.font-small{
+    font-size:0.5rem;
+    font-family:  "微软雅黑", Verdana, Arial, Helvetica, sans-serif;
+}
+.header_logo{
+    width:59px;height:59px;
+    background-size: 100%;
+}
+
+.my-img-box{
+    border-radius: 50%;
+    border: 5px solid rgb(220, 220, 220);
+    border-image: none;
+}
+a:hover{
+    text-decoration: none;
+    font-weight:bold;
+}
+
