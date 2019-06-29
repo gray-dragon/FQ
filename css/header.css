@@ -15,8 +15,7 @@ body{
 .list-group{
     display:flex;
     flex-direction:row;
-    position: relative;
-    
+    position: relative;  
     padding-left:30px; 
     margin-bottom: -1px;
     font-size:0.6rem;

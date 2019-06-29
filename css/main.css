@@ -1,0 +1,46 @@
+.carousel img{
+  /* width: 1110px; */
+  height:750px;
+  background-size:100% 
+}
+.carousel-control-prev,
+.carousel-control-next{
+  width:4%;
+  height:15%;
+  top:40%;
+ background:#aaaaaa5c;
+ border-radius:0.25rem;
+}
+.carousel-indicators li{
+  width:0.8rem;height:0.8rem;
+  border-radius: 50%;
+  background:#fff;
+  margin:0 0.5rem;
+}
+.carousel-indicators .active{
+  background: #f00;
+}
+section{
+  width:1200px;
+  margin: 0 auto;
+  font-family:  "微软雅黑", Verdana, Arial, Helvetica, sans-serif;
+}
+.line h3{
+  text-align:center;
+  margin:3rem 0rem;
+  font-weight:bolder;
+}
+.line div{
+  display: inline-block;
+  width:3rem;
+  border:0.1rem solid #000;
+  vertical-align: middle;
+  margin: 0 4rem;
+}
+.line p{
+  text-align: center;
+  margin:0 6rem;
+  font-size:1.25rem;
+  line-height:2.5rem;
+  margin-bottom: 5rem;
+}
