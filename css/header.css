@@ -1,30 +1,87 @@
-.my_header{
-    height:125px;
+body{
+    width: 1440px;
 }
-.my_header div:first-child{
+.one-style{
     height:62px;
-    background:#095517;
+    background: #095517;
+    position: relative;
+    transition: 1s;
+    color:#fff;
 }
-.header-two{
-    height:62px;
-    background:#fff;
+.one-style:hover{
+    background: #333;
+
 }
-.font-small{
-    font-size:0.5rem;
+.list-group{
+    display:flex;
+    flex-direction:row;
+    position: relative;
+    
+    padding-left:30px; 
+    margin-bottom: -1px;
+    font-size:0.6rem;
     font-family:  "微软雅黑", Verdana, Arial, Helvetica, sans-serif;
 }
-.header_logo{
-    width:59px;height:59px;
-    background-size: 100%;
-}
+.list-group>li:first-child,.list-group>li:nth-child(2){
+    /* display:block; */
+    /* flex-direction:row; */
+    padding-top:9px;
 
-.my-img-box{
+}
+.list-group>li:first-child{
+    list-style-image:url(../img/dw.png);
+    list-style-position: inside;
+}
+.list-group>li:nth-child(2){
+    list-style-image: url(../img/email.jpg);
+    list-style-position: inside;
+    padding-left:10px; 
+}
+.list-group>li:nth-child(4){
+    position: absolute;
+    left:85%
+}
+.on-child-style{
+    position: absolute; ;
+    left:50px;
+}
+ul h1{
+    font-size: 32px;
+    position: absolute;
+    left: 35%;
+
+
+}
+h1 img {
+    width:50px;height: 50px;
+    background-size:100%;
+    float: left; 
     border-radius: 50%;
     border: 5px solid rgb(220, 220, 220);
     border-image: none;
 }
-a:hover{
-    text-decoration: none;
-    font-weight:bold;
+h1 img+span{
+    margin-left:1.5rem;
+    display: inline-block;
+    margin-top: 12px;
 }
+.list-group-two{
+    display: flex;
+    height:62px;
+    align-items: center;
+}
+a{
+    text-decoration:none;
+    color:#000;
 
+    
+}
+.list-group-two{
+    display: flex;
+    justify-content: space-around;
+    margin-left:250px;
+    margin-right:250px;  
+}
+.list-group-two li {
+    display: inline-block;
+}
