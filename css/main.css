@@ -189,3 +189,63 @@ a:hover{
   width:90%;
   border-radius: 0
 }
+.mes_one{
+  color:#fff;
+
+}
+.mes_one{
+  height:310px;
+  background:url(../img/g7.jpg) no-repeat;
+  background-size:100%;
+  padding-top:2rem;
+}
+.mes_one .main_new div{
+  display: inline-block;
+  width:3rem;
+  border:0.1rem solid #fff;
+  vertical-align: middle;
+  margin: 0 4rem;
+}
+.mes_one input{
+  color:#fff;
+  background-color: rgba(225,200,200,0);
+  border:2px solid #fff;
+  border-width:2px;
+  height:50px;
+  margin-right:3rem;
+  border-radius:0.3rem;
+}
+.mes_one button{
+  border-radius:50px;
+  background-color:rgba(225,200,200,0);
+  border:2px solid #fff;
+  color:#fff; 
+}
+.mes_one button:hover,.mes_one input:hover{
+  border:2px solid #ef9509;
+}
+.mes_two{
+  margin-top:5rem;
+}
+.mes_three{
+  height:729px;
+  background:url(../img/g7.jpg) no-repeat;
+  color:#fff;
+
+}
+.mes_three .main_new div{
+  display: inline-block;
+  width:3rem;
+  border:0.1rem solid #fff;
+  vertical-align: middle;
+  margin: 0 4rem;
+}
+.mes_three .main_new{
+  margin-top:4rem;
+}
+.mes_three img{
+  height:600px;
+}
+.p_width{
+  width:567px;
+}
