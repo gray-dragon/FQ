@@ -54,7 +54,7 @@
   border-radius: 5px;
 }
 .footer_w_one:hover,.footer_w_two:hover,.footer_w_three:hover,.footer_w_four:hover,.footer_w_five:hover{
-  background-color:rgba(78, 71, 78, 0.4)
+  background-color:rgba(78, 71, 78, 0.4);
 }
 .footer_d{
   height:200px;
@@ -68,7 +68,7 @@
   font-weight:bold;
   margin-top:2rem; 
 }
-.footer_d p:nth-child(3){
+.footer_d p:nth-child(3{
   font-weight: bold;
   color:rgb(0, 100, 06);
 }
