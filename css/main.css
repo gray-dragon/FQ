@@ -228,7 +228,7 @@ a:hover{
   margin-top:5rem;
 }
 .mes_three{
-  height:729px;
+  height:760px;
   background:url(../img/g7.jpg) no-repeat;
   color:#fff;
 
@@ -248,4 +248,8 @@ a:hover{
 }
 .p_width{
   width:567px;
+  font-size:18px;
+  font-weight:bold;
+  margin-left:10rem;
+  line-height: 1.8rem;
 }
