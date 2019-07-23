@@ -2,22 +2,18 @@ body{
     width: 1440px;
 }
 .one-style{
-    height:62px;
+    height:80px;
     background: #095517;
     position: relative;
     transition: 1s;
     color:#fff;
-}
-.one-style:hover{
-    background: #333;
-
 }
 .list-group{
     display:flex;
     flex-direction:row;
     position: relative;  
     padding-left:30px; 
-    margin-bottom: -1px;
+    margin-bottom: 0px !important;
     font-size:0.6rem;
     font-family:  "微软雅黑", Verdana, Arial, Helvetica, sans-serif;
 }
