@@ -1,0 +1,24 @@
+div {
+  color: #754721; }
+
+.parent, .child {
+  border: 1px solid #f00;
+  border-radius: 50%; 
+}
+
+.child {
+  box-shadow: 0 0 10px;
+ }
+
+.my-bottom-border, .my-bottom-shadow {
+  border: 2px double #00ff00;
+  border-radius: 30%;
+  box-shadow: 10px 10px 5px; 
+}
+
+.my-bottom-shadow {
+  border-color: #00aeef; 
+}
+.my-bottom-shadow:hover {
+  border-bottom-color: #0000ff; 
+}

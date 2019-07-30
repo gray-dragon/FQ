@@ -1,0 +1,20 @@
+$FQ_color:#754721;
+div{color:$FQ_color}
+.parent{
+  border :1px solid #f00;
+  border-radius:50%;
+}
+.child {
+  box-shadow: 0 0 10px;
+  @extend .parent;
+}
+.my-bottom-border{
+  border:2px double #00ff00;
+  border-radius:30%;
+  box-shadow:10px 10px 5px;
+}
+.my-bottom-shadow{
+  @extend .my-bottom-border;
+  border-color:#00aeef;
+  &:hover{border-bottom-color: #0000ff;}
+}
